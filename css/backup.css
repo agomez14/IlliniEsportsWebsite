@@ -1,0 +1,452 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body{
+	max-width: 100%;
+	overflow-x: hidden;
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	background: url("../img/background.png");
+	padding-top: 9%;
+}
+
+#footer-brand{
+	width: 150px;
+	height: 150px;
+}
+
+/*Navbar CSS*/
+.navbar{
+	margin-top: 3%;
+    background: transparent url('../img/nav-bar.png') no-repeat center center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.icon-bar{
+	background-color: #fff;
+}
+
+#nav-brand{
+	width: 150px;
+	height: 150px;
+}
+
+.center{
+	position: absolute;
+	left: 50%;
+	margin-left: -75px !important;
+	top: -50px;
+}
+/*When navbar is NOT at the top of the page*/
+
+.navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-nav > li{
+	padding-right: 5%;
+  /*padding-left:30px;*/
+  /*padding-right:30px;*/
+  	font-size: 28px; 
+}
+
+/*Helper/Bootstrap overwrite CSS*/
+
+.no-list-style{
+	list-style-type: none;
+	padding: 0px;
+}
+
+.btn{
+	background-color: #002058;
+	color: white;
+	height: 46px;
+}
+
+.btn:hover{
+	background-color: #606EB2;
+	color: white;
+}
+
+.center{
+	text-align: center;
+}
+
+.middle{
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.not-visible{
+	display: none;
+	visibility: hidden;
+}
+
+.visible{
+	display: block;
+	visibility: visible;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+/*Section General*/
+
+.section{
+	max-width: 120%;
+	overflow-x: hidden;
+	padding-bottom: 100px;
+	border-bottom: solid 3px #ff8019 ;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.footer-section{
+	max-width: 120%;
+	overflow-x: hidden;
+}
+
+.section-color{
+	background-color: #00499A;
+	color: white;
+}
+
+.section-title{
+	font-family: 'Oswald', sans-serif;
+	font-size: 48px;
+}
+
+.white-text{
+	color: white;
+}
+
+.dark-text{
+	color: #002058;
+}
+
+.orange-text{
+	color: #E87722;
+}
+
+.white-line{
+	display: block;
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid #FFFFFF;
+}
+
+.dark-line{
+	display: block;
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid #002058;
+}
+
+/*Home Section*/
+
+#home{
+	background-image: url("../img/quadFall.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+
+.home-text{
+	background-color: rgba(232, 119, 34, .8);
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+/*About Section*/
+
+#about{
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.about-text{
+	font-size: 24px;
+	padding-top: 20px;
+}
+
+.exec-board{
+	padding-top: 20px; 
+}
+
+.exec-board-resize{
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+.carousel-control.left,
+.carousel-control.right{
+	background-image: none;
+}
+
+/*Teams Section*/
+
+#teams{
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/*Game Navigator*/
+.game-nav{
+	padding-top: 30px;
+}
+
+.game-nav-background{
+	background-color: rgba(232,119,34,0.6);
+}
+
+.game-list{
+	text-align: center;
+	padding-left: 40px;
+}
+
+.game-list > li{
+	display: inline;
+	padding-right: 60px;
+}
+
+.game{
+	opacity: 0.6;
+}
+
+.game-active{
+	opacity: 1;
+}
+
+.game:hover,
+.game:focus{
+	opacity: 1;
+}
+
+/*Team Roster Section*/
+
+.roster{
+	list-style-type: none;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.cell{
+	width: 170px;
+	display: inline-block;
+	background: url("../img/cell-background.png");
+	position: relative;
+	border: 2px solid #E87722;
+}
+
+.player-picture{
+	width: 170px;
+	height: 350px;
+}
+
+.details{
+	position: absolute;
+	top: 265px;
+	width: 100%;
+	background-color: rgba(232,119,34,0.8); 
+	visibility: hidden;
+	text-align: center;
+}
+
+.details > h4{
+	color: white;
+}
+
+.details > a{
+	color: white;
+}
+
+.details > a:hover{
+	color: white;
+}
+
+.cell:hover > .details{
+	visibility: visible;
+}
+
+/*News Section*/
+
+#news{
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.news-content{
+	padding-top: 30px;
+}
+
+.news-thumbnail{
+	position: relative;
+}
+
+.news-img{
+	width: 538px; 
+	height: 302px;
+
+}
+
+.news-caption{
+	position: absolute;
+	z-index: 1;
+	top: 242px;
+	left: 20px;
+	padding-bottom: 10px;
+	background: rgba(0,0,0,0.8);
+	border-radius: 0px 10px 0px 0px;
+}
+
+.news-button{
+	margin-left: 45%;
+}
+
+
+/*Events Section*/
+
+#events{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#events > div > div{
+	padding-top: 50px;
+}
+
+.matches{
+	text-align: center;
+}
+
+.match-table{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-spacing: 5px;
+	border-collapse: separate;
+}
+
+.orange-color-tr{
+	background-color: #E87722;
+}
+
+.blue-color-tr{
+	background-color: #606EB2;
+}
+
+.alt-logo{
+	height: 90px;
+	width: 90px;
+}
+
+.facebook{
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*Contact Section*/
+
+#contact{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#contact > div > div{
+	margin-top: 25px;
+}
+
+.contact-form{
+	padding-top: 30px;
+	padding-right: 300px;
+	padding-left: 300px;
+}
+
+.required{
+	font-style: italic;
+	color: red;
+}
+
+.error{
+	color: red;
+}
+/*Footer Section*/
+
+#footer{
+	padding-left: 60px;
+	padding-right: 60px;
+	color: white;
+}
+
+.rightFooter{
+	padding-top: 15px;
+}
+
+.social{
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.social li{
+	display: inline;
+	padding-right: 5px;
+}
+
+.fa:hover{
+	color: black;
+}
+
+/*Modal Section*/
+
+.modal{
+	text-align: center;
+	padding: 0!important;
+}
+
+.modal:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+
+.modal-dialog{
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.modal-cell{
+	width: 170px;
+	background: url("../img/cell-background.png");
+	border: 2px solid #E87722;
+	display: inline-block;
+}
+
+.modal-details{
+	width: 300px;
+	text-align: left;
+	color: white;
+	padding-top: 50px;
+	float: right;
+}
+
+.modal-color-background{
+	background-color: rgba(0,0,0,0.6);
+	background-size: 100% auto;
+	padding-right: 75px;
+}
+
