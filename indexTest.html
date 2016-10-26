@@ -8,6 +8,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" href="css/site.css">
 
 	<title>Illini Esports</title>
@@ -15,7 +16,7 @@
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="50">
 
-	<nav class="navbar navbar-fixed-top" id="navbar">
+	<nav class="navbar" id="navbar">
 		<div class="container-fluid navbar-content">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -26,29 +27,106 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a href="#" class="navbar-brand">
-					<img src="img/nav-logo.png" alt="Logo" id="nav-brand">
+					<img src="img/nav-logo-flair.png" alt="Logo" id="nav-brand">
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav navbar-right" id="nav-right">
-					<li><a href="#about">ABOUT</a></li>
-					<li><a href="#discord">DISCORD</a></li>
+					<li class="active"><a href="">ABOUT</a></li>
+					<li><a href="#news">NEWS</a></li>
 					<li><a href="#teams">TEAMS</a></li>
-					<li><a href="#store">Store</a></li>
+					<li><a href="#store">STORE</a></li>
+					<li><a href="http://discord.gg/ysmhapJ">DISCORD</a></li>
 				</ul>
 			</div>
 		</div>
-	</nav>
+	</nav>	
+	<header>
+		<div class="container">
+			<div class="hero-content">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="hero-slick">
+							<div class="hero-img" style="background-image: -webkit-linear-gradient(top left, rgba(0, 47, 75, .50), rgba(220, 66, 37, .50)), url('img/hero-image1.jpg')"></div>
+							<div class="hero-img" style="background-image: -webkit-linear-gradient(top left, rgba(0, 47, 75, .50), rgba(220, 66, 37, .50)), url('img/hero-image2.jpg')"></div>
+							<div class="hero-img" style="background-image: -webkit-linear-gradient(top left, rgba(0, 47, 75, .50), rgba(220, 66, 37, .50)), url('img/hero-image3.jpg')"></div>
+							<div class="hero-img" style="background-image: -webkit-linear-gradient(top left, rgba(0, 47, 75, .50), rgba(220, 66, 37, .50)), url('img/hero-image4.jpg')"></div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="hero-content-fb">
+							<div class="row">
+								<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fillinoisesports%2F&tabs=timeline&width=500&height=840&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="758" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
+	<section class="sponsor">
+		<div class="container-fluid">
+			<div class="sponsor-content">
+				<h2 class="section-subtitle">Our Sponsors:</h2>
+				<div class="sponsor-slick">
+					<div class="sponsor-img">
+						<a href="https://www.facebook.com/chatimeillinois/"><img class="" src="img/chatime.png" alt="chatime"></a>
+					</div>
+					<div class="sponsor-img">
+						<a href="https://steelseries.com/"><img class="" src="img/steelseries.png" alt="steelseries"></a>
+					</div>
+					<div class="sponsor-img" style="width: 285px;">
+						<a href="https://www.lootcrate.com/"><img class="" src="img/lootcrate.png" alt="lootcrate"></a>
+					</div>
+					<div class="sponsor-img" style="width: 285px;">
+						<a href="https://tespa.org/"><img class="" src="img/tespa.png" alt="tespa"></a>
+					</div>
+					<div class="sponsor-img" style="width: 285px;">
+						<a href="https://ulol.na.leagueoflegends.com/"><img class="" src="img/ulol.png" alt="ulol"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="about-content">
+			<h2 class="section-title">About</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<p class="about-p">Illini Esports is an inclusive organization for ALL gamers to make awesome memories. New to esports and want to learn? We'll teach you. A long-time veteran of your favorite game? We'll challenge you! We are also a Tespa chapter which means we will have cool stuff to raffle and REAL prizes for our own in-house tournaments. We also register competitive teams for games like League of Legends, Hearthstone, CS:GO, DotA 2, Starcraft 2,  and Heroes of the Storm at the collegiate level. Come now and join the central hub for gamers at the University of Illinois.</p>
+				</div>
+				<div class="col-md-8"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="news">
+		<div class="news-content">
+			<h2 class="section-title">News</h2>
+			<div class="row">
+				<div class="col-md-8">
+					<p class="">Illini Esports is an inclusive organization for ALL gamers to make awesome memories. New to esports and want to learn? We'll teach you.A long-time veteran of your favorite game? We'll challenge you! We are also a Tespa chapter which means we will have cool stuff to raffle andREAL prizes for our own in-house tournaments. We also register competitive teams for games like League of Legends, Hearthstone, CS:GO,DotA 2, Starcraft 2,  and Heroes of the Storm at the collegiate level. Come now and join the central hub for gamers at the University of Illinois.</p>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="teams">
+		<div class="teams-content">
+			<h2 class="section-title">Teams</h2>
+			<div class="row">
+				
+			</div>
+		</div>
+	</section>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.js"></script>
-	<!-- <script src="js/headroom.js"></script> -->
-	<!-- <script src="js/jQuery.headroom.js"></script> -->
-	<script src="js/slick.js"></script>
-	<script src="js/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
 	<script src="js/test.js"></script>
-	<!-- <script src="js/site.js"></script> -->
 </body>
 
 
