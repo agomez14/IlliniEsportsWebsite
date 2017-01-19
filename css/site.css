@@ -46,7 +46,7 @@ body{
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus{
 	color: #FA6300;
-	background-color: transparent;
+	background-color: #eee;
 }
 
 li.active > a,
@@ -148,6 +148,8 @@ section{
 
 .teams{
 	background-color: #eee;
+	background-size: contain;
+	color: rgba(1, 2, 29, 1);
 }
 
 .teams-content{
